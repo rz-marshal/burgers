@@ -1,0 +1,35 @@
+#table{
+	 text-align: center;
+	 color: #000; 
+	 margin-top: 2%;
+	 border-collapse: collapse;
+}
+
+td{
+	padding: 10px 20px;
+	border: 1px solid black;
+	min-width: 100px;
+}
+th{
+	border: 2px solid black;
+}
+
+#table thead{
+	border: 2px solid black;
+	background-color: #ccc;
+
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container__tables{
+}
+
+.table{
+	margin-top: 2%;
+
+}
